@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.receita__botao {
+    padding         : 15px;
+    background-color: #8d0606;
+    border          : none;
+    border-radius   : 5px;
+    color           : white;
+    transition      : all 0.5s;
+}
+
+.receita__botao:hover {
+    cursor          : pointer;
+    background-color: #570707;
+    box-shadow      : 2px 2px 5px rgba(0, 0, 0, 0.363);
+}

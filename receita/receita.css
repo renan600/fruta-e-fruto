@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.receita {
+    display         : flex;
+    flex-direction  : column;
+    background-color: whitesmoke;
+    margin          : 0px 30px 20px 30px;
+    width           : calc(25% - 60px);
+    border-radius   : 10px;
+    box-shadow      : 2px 2px 8px rgba(0, 0, 0, 0.438);
+}
+
+
+@media screen and (max-width:1250px) {
+    .receita {
+        width : calc(30%);
+        margin: 0px auto 20px auto;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .receita {
+        width: calc(50% - 20px);
+
+    }
+}
+
+@media screen and (max-width:450px) {
+    .receita {
+        width: 80%;
+    }
+}

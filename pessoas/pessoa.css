@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.pessoa{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:960px) {
+    .pessoa {
+        padding:20px 0px;
+    }
+    .pessoa:first-child{
+        padding:0px 0px;
+    }
+    .pessoa:last-child {
+        padding:0px 0px;
+    }
+}

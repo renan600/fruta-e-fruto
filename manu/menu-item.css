@@ -1,0 +1,19 @@
+@charset "UTF-8";
+.menu__item {
+    list-style: none;
+    padding-right:10px;
+    padding-left: 10px;
+}
+@media screen and (max-width:450px) {
+    .menu__item{
+        padding: 0px;
+        margin-top: 10px;
+        background-color: #6060604b;
+        border-radius:10px;
+        padding:5px 80px 5px 80px;
+    }
+    .menu__item:first-child{
+        margin-top: 16px;
+    }
+    
+}

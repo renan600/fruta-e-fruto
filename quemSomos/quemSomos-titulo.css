@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.quemSomos__titulo{
+    font-family: 'Pacifico', cursive;
+    font-size: 5em;
+    color: #8d0606;
+    font-weight: normal;
+}
+
+@media screen and (max-width:522px) {
+    .quemSomos__titulo{
+        font-size: 4em; 
+    }
+}
+@media screen and (max-width:390px) {
+    .quemSomos__titulo{
+        font-size: 3em; 
+    }
+}

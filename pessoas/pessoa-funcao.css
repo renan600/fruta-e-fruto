@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.pessoa__funcao{
+    color:#595959;
+    font-size: 1.4em;
+    text-transform: lowercase;
+}
+@media screen and (max-width:400px) {
+    .pessoa__funcao {
+      font-size: 1em;
+    }
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.cabecalho{
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.336);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .cabecalho{
+        justify-content: center;
+    }
+    .link-imagem__logo{
+        display: none;
+    }
+
+}

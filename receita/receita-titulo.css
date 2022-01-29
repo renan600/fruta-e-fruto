@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.receita__titulo {
+    font-size: 1.5em;
+
+}
+@media screen and (max-width:750px) {
+    .receita__titulo {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .receita__titulo {
+        font-size: 1.2em;
+    }
+}

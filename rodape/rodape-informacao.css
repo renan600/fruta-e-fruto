@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.rodape__informacao{
+    color: whitesmoke;
+    font-size:1.2em;
+    text-transform: lowercase;
+}
+@media screen and (max-width:768px) {
+    .rodape__informacao {
+        font-size:1em;
+    }
+}

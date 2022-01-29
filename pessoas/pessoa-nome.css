@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.pessoa__nome{
+    font-family: 'Pacifico', cursive;
+    color: #8d0606;
+    font-size: 2em;
+    margin: 16px 0px;
+}
+
+@media screen and (max-width:400px) {
+    .pessoa__nome {
+      font-size: 1.5em;
+    }
+}

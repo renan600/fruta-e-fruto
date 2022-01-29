@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.rodape {
+    background-color: #606060;
+    text-align      : right;
+    padding         : 20px 40px;
+}
+
+@media screen and (max-width:768px) {
+    .rodape {
+        text-align: center;
+        padding         : 20px 10px;
+    }
+}

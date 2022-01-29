@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.menu__lista{
+    display: flex;
+}
+
+@media screen and (max-width:450px) {
+    .menu__lista{
+        display: block;
+        text-align: center;
+    }
+}

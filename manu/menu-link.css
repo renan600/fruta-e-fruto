@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.menu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.788);
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+}
+

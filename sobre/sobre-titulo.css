@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.sobre__titulo{
+    font-family: 'Pacifico', cursive;
+    color:#8d0606;
+    font-size: 5em;
+    font-weight: normal;
+}
+@media screen and (max-width:1400px) {
+    .sobre__titulo{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width:1215px) {
+    .sobre__titulo{
+        font-size:60px;
+    }
+}
+@media screen and (max-width:1047px) {
+    .sobre__titulo{
+        font-size:50px;
+    }
+}
+@media screen and (max-width:881px) {
+    .sobre__titulo{
+        font-size:40px;
+    }
+}
+@media screen and (max-width:710px) {
+    .sobre__titulo{
+        font-size:30px;
+    }
+}
+@media screen and (max-width:542px) {
+    .sobre__titulo{
+        font-size:25px;
+    }
+}
