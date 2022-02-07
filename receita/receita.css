@@ -13,7 +13,7 @@
 
 @media screen and (max-width:1250px) {
     .receita {
-        width : calc(30%);
+        width : 30%;
         margin: 0px auto 20px auto;
     }
 }
